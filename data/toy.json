@@ -1,32 +1,92 @@
 [
   {
-    "name": "popo",
-    "price": 123123,
+    "name": "nono",
+    "maxPrice": 642,
     "labels": [
+      "Box game",
       "Art",
-      "koko",
-      "Puzzle"
+      "Baby"
     ],
+    "createdAt": "2023-12-26T14:41:04.090Z",
     "inStock": true,
-    "createdAt": "2023-12-26T13:13:07.812Z",
-    "_id": "fL12E"
+    "_id": "Q5wnm"
   },
   {
-    "name": "test",
-    "price": 2333,
+    "name": "ffff",
+    "price": 626,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T14:36:17.718Z",
+    "inStock": true,
+    "_id": "p9ikC"
+  },
+  {
+    "name": "bbb",
+    "price": 123,
+    "labels": [
+      "Art",
+      "Doll",
+      "Puzzle"
+    ],
+    "inStock": false,
+    "createdAt": "2023-12-26T14:04:47.785Z",
+    "_id": "pJlP0"
+  },
+  {
+    "name": "vr",
+    "price": 456,
     "labels": [
       "Art",
       "Doll",
       "Puzzle"
     ],
     "inStock": true,
-    "createdAt": "2023-12-26T13:02:37.931Z",
-    "_id": "qJTDb"
+    "createdAt": "2023-12-26T13:59:37.864Z",
+    "_id": "4pJnX"
+  },
+  {
+    "name": "mnmnm",
+    "price": 777,
+    "labels": [
+      "Art",
+      "Doll",
+      "Puzzle"
+    ],
+    "inStock": true,
+    "createdAt": "2023-12-26T13:58:26.418Z",
+    "_id": "RlE0m"
+  },
+  {
+    "name": "qqqqq",
+    "price": 871,
+    "labels": [
+      "Art",
+      "Doll",
+      "Puzzle"
+    ],
+    "inStock": true,
+    "createdAt": "2023-12-26T13:58:09.457Z",
+    "_id": "WJznI"
+  },
+  {
+    "name": "test",
+    "price": 340,
+    "labels": [
+      "Art",
+      "Doll",
+      "Puzzle"
+    ],
+    "inStock": true,
+    "createdAt": "2023-12-26T13:57:18.448Z",
+    "_id": "UgzmW"
   },
   [
     {
       "name": "doll",
-      "price": 23,
+      "price": 43,
       "labels": [
         "Art",
         "Doll",
@@ -39,7 +99,7 @@
     {
       "_id": "118073",
       "name": "monopol",
-      "price": 27,
+      "price": 106,
       "labels": [
         "Art",
         "Doll",

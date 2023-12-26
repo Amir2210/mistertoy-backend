@@ -25,45 +25,54 @@ app.use(express.json())
 
 
 // Express Routing:
-app.get('/puki', (req, res) => {
-    var visitCount = req.cookies.visitCount || 0
-    visitCount++
-    res.cookie('visitCount', visitCount)
-    res.cookie('lastVisitedtoyId', 'c101', { maxAge: 60 * 60 * 1000 })
-    res.send('Hello Puki')
-})
 app.get('/nono', (req, res) => res.redirect('/'))
 
 // REST API for toys
 
-// toy LIST
+//NEW toy LIST
 app.get('/api/toy', (req, res) => {
-    const filterBy = {
-        txt: req.query.txt || '',
-        maxPrice: +req.query.maxPrice || 0,
-    }
-    toyService.query(filterBy)
-        .then((toys) => {
-            res.send(toys)
-        })
-        .catch((err) => {
-            loggerService.error('Cannot get toys', err)
-            res.status(400).send('Cannot get toys')
-        })
+  console.log("req.query.params:", req.query)
+  const { filterBy = {}, sort = {} } = req.query.params
+
+  toyService.query(filterBy, sort)
+      .then(toys => {
+          res.send(toys)
+      })
+      .catch(err => {
+          console.log('Had issues getting toys', err);
+          res.status(400).send({ msg: 'Had issues getting toys' })
+      })
+})
+// GET SINGLE A TOY
+app.get('/api/toy/:id', (req, res) => {
+  console.log('detail');
+  const toyId = req.params.id
+  toyService.getById(toyId)
+      .then(toy => {
+          res.send(toy)
+      })
+      .catch(err => {
+          console.log('Had issues getting toy', err);
+          res.status(400).send({ msg: 'Had issues getting toy' })
+      })
 })
 
-// toy READ
-app.get('/api/toy/:toyId', (req, res) => {
-    const { toyId } = req.params
-    toyService.getById(toyId)
-        .then((toy) => {
-            res.send(toy)
+// toy DELETE
+app.delete('/api/toy/:id', (req, res) => {
+  const toyId = req.params.id
+  toyService.remove(toyId)
+        .then(() => {
+            loggerService.info(`toy ${toyId} removed`)
+            res.send('Removed!')
         })
         .catch((err) => {
-            loggerService.error('Cannot get toy', err)
-            res.status(400).send('Cannot get toy')
+            loggerService.error('Cannot remove toy', err)
+            res.status(400).send('Cannot remove toy')
         })
+
 })
+
+
 
 // toy CREATE
 app.post('/api/toy', (req, res) => {
@@ -91,20 +100,6 @@ app.put('/api/toy/:id', (req, res) => {
       })
 })
 
-// toy DELETE
-app.delete('/api/toy/:id', (req, res) => {
-  const toyId = req.params.id
-  toyService.remove(toyId)
-        .then(() => {
-            loggerService.info(`toy ${toyId} removed`)
-            res.send('Removed!')
-        })
-        .catch((err) => {
-            loggerService.error('Cannot remove toy', err)
-            res.status(400).send('Cannot remove toy')
-        })
-
-})
 
 
 // AUTH API
