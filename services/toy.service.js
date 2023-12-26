@@ -21,9 +21,13 @@ function query(filterBy, sort) {
         const regExp = new RegExp(filterBy.txt, 'i')
         filteredToys = filteredToys.filter(toy => regExp.test(toy.name))
     }
-    if (filterBy.labels && filterBy.labels[0]) {
-        filteredToys = filteredToys.filter(toy => toy.labels.some(label => filterBy.labels.includes(label)))
-    }
+    // if (filterBy.labels && filterBy.labels[0]) {
+    //     filteredToys = filteredToys.filter(toy => toy.labels.some(label => filterBy.labels.includes(label)))
+    // }
+
+    
+    // filteredToys = filteredToys.filter(toy => toy.labels?.some(label => filterBy.labels.includes(label)) ?? true);
+
 
     if (filterBy.inStock) {
         filteredToys = filteredToys.filter(toy => toy.inStock === JSON.parse(filterBy.inStock))
@@ -34,12 +38,6 @@ function query(filterBy, sort) {
 
     filteredToys = filteredToys.filter(toy => (toy.price <= filterBy.maxPrice) && (toy.price >= filterBy.minPrice))
 
-
-    // sort either by price or by name - when sorting by string we need more 
-    // complex conditions, thats for you to figure out ;)
-    // we use the asc key in the sort to determin which way to sort
-    // ascending or descending. so when we change the number to pos \ neg 
-    // it will change the direction of the sort
     filteredToys.sort((toy1, toy2) => {
         const dir = JSON.parse(sort.asc) ? 1 : -1
         if (sort.by === 'price') return (toy1.price - toy2.price) * dir
@@ -49,24 +47,12 @@ function query(filterBy, sort) {
     return Promise.resolve(filteredToys);
 }
 
-// function getById(toyId) {
-//     const toy = toys.find(toy => toy._id === toyId)
-//     return Promise.resolve(toy)
-// }
 
 function getById(_id) {
     const toy = toys.find(toy => toy._id === _id)
     return Promise.resolve(toy);
 }
 
-// function remove(toyId,) {
-//     const idx = toys.findIndex(toy => toy._id === toyId)
-//     if (idx === -1) return Promise.reject('No Such toy')
-//     const toy = toys[idx]
-
-//     toys.splice(idx, 1)
-//     return _savetoysToFile()
-// }
 
 function remove(_id) {
     const idx = toys.findIndex(toy => toy._id === _id)
