@@ -4,9 +4,10 @@ import cors from 'cors'
 import cookieParser from 'cookie-parser'
 import { toyService } from './services/toy.service.js'
 import { loggerService } from './services/logger.service.js'
+import Cryptr from 'cryptr'
 
 const app = express()
-
+const crypter = new Cryptr(process.env.SECRET || 'secret-word-1234')
 // Express Config:
 
 const corsOptions = {
