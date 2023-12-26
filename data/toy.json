@@ -1,5 +1,101 @@
 [
   {
+    "name": "Enchanted Princess Doll",
+    "price": 805,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:30:25.976Z",
+    "inStock": true,
+    "_id": "vtq43"
+  },
+  {
+    "name": "DIY Friendship Bracelet Kit",
+    "price": 496,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:30:21.101Z",
+    "inStock": true,
+    "_id": "Mk3Vv"
+  },
+  {
+    "name": "Astronaut Space Helmet",
+    "price": 650,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:30:12.645Z",
+    "inStock": true,
+    "_id": "3Yd6F"
+  },
+  {
+    "name": "Unicorn Fantasy Puzzle",
+    "price": 880,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:29:20.764Z",
+    "inStock": true,
+    "_id": "hPgZF"
+  },
+  {
+    "name": "Teddy Bear Picnic Basket",
+    "price": 370,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:29:17.491Z",
+    "inStock": true,
+    "_id": "o6kqx"
+  },
+  {
+    "name": "Enchanted Princess Doll",
+    "price": 520,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:29:13.765Z",
+    "inStock": true,
+    "_id": "vHWNq"
+  },
+  {
+    "name": "rabdom",
+    "price": 904,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:17:41.745Z",
+    "inStock": true,
+    "_id": "IZW9s"
+  },
+  {
+    "name": "kikki",
+    "price": 966,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-26T20:11:00.320Z",
+    "inStock": true,
+    "_id": "uKb1r"
+  },
+  {
     "name": "nono",
     "maxPrice": 642,
     "labels": [
