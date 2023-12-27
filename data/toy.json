@@ -1,5 +1,17 @@
 [
   {
+    "name": "Explorer Kit",
+    "price": 228,
+    "labels": [
+      "Box game",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "2023-12-27T13:44:49.599Z",
+    "inStock": true,
+    "_id": "pBWc2"
+  },
+  {
     "name": "Racing Turbo Car",
     "price": 389,
     "labels": [
@@ -12,7 +24,7 @@
     "_id": "QeTcb"
   },
   {
-    "name": "Enchanted Princess Doll",
+    "name": "Princess Doll",
     "price": 805,
     "labels": [
       "Box game",
@@ -24,7 +36,7 @@
     "_id": "vtq43"
   },
   {
-    "name": "DIY Friendship Bracelet Kit",
+    "name": "Bracelet Kit",
     "price": 496,
     "labels": [
       "Box game",
@@ -36,7 +48,7 @@
     "_id": "Mk3Vv"
   },
   {
-    "name": "Astronaut Space Helmet",
+    "name": "Space Helmet",
     "price": 650,
     "labels": [
       "Box game",
@@ -48,7 +60,7 @@
     "_id": "3Yd6F"
   },
   {
-    "name": "Unicorn Fantasy Puzzle",
+    "name": "Unicorn",
     "price": 880,
     "labels": [
       "Box game",
@@ -60,7 +72,7 @@
     "_id": "hPgZF"
   },
   {
-    "name": "Teddy Bear Picnic Basket",
+    "name": "Teddy Bear",
     "price": 370,
     "labels": [
       "Box game",
@@ -72,7 +84,7 @@
     "_id": "o6kqx"
   },
   {
-    "name": "Enchanted Princess Doll",
+    "name": "Bike",
     "price": 520,
     "labels": [
       "Box game",
@@ -84,7 +96,7 @@
     "_id": "vHWNq"
   },
   {
-    "name": "rabdom",
+    "name": "Car",
     "price": 904,
     "labels": [
       "Box game",
@@ -96,7 +108,7 @@
     "_id": "IZW9s"
   },
   {
-    "name": "kikki",
+    "name": "Dragon",
     "price": 966,
     "labels": [
       "Box game",
@@ -120,19 +132,7 @@
     "_id": "Q5wnm"
   },
   {
-    "name": "ffff",
-    "price": 626,
-    "labels": [
-      "Box game",
-      "Art",
-      "Baby"
-    ],
-    "createdAt": "2023-12-26T14:36:17.718Z",
-    "inStock": true,
-    "_id": "p9ikC"
-  },
-  {
-    "name": "bbb",
+    "name": "Ball",
     "price": 123,
     "labels": [
       "Art",
@@ -144,7 +144,7 @@
     "_id": "pJlP0"
   },
   {
-    "name": "vr",
+    "name": "VR",
     "price": 456,
     "labels": [
       "Art",
@@ -156,31 +156,7 @@
     "_id": "4pJnX"
   },
   {
-    "name": "mnmnm",
-    "price": 777,
-    "labels": [
-      "Art",
-      "Doll",
-      "Puzzle"
-    ],
-    "inStock": true,
-    "createdAt": "2023-12-26T13:58:26.418Z",
-    "_id": "RlE0m"
-  },
-  {
-    "name": "qqqqq",
-    "price": 871,
-    "labels": [
-      "Art",
-      "Doll",
-      "Puzzle"
-    ],
-    "inStock": true,
-    "createdAt": "2023-12-26T13:58:09.457Z",
-    "_id": "WJznI"
-  },
-  {
-    "name": "test",
+    "name": "Headset",
     "price": 340,
     "labels": [
       "Art",
