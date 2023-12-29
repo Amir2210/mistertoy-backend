@@ -9,8 +9,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-28T16:19:55.268Z",
-    "inStock": true,
-    "_id": "xQ4gj"
+    "inStock": true
   },
   {
     "name": "snake",
@@ -22,8 +21,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-27T18:22:02.700Z",
-    "inStock": true,
-    "_id": "DZCLV"
+    "inStock": true
   },
   {
     "name": "kooala",
@@ -35,8 +33,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-27T18:09:25.713Z",
-    "inStock": true,
-    "_id": "4gtwg"
+    "inStock": true
   },
   {
     "name": "Explorer Kit",
@@ -48,8 +45,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-27T13:44:49.599Z",
-    "inStock": true,
-    "_id": "pBWc2"
+    "inStock": true
   },
   {
     "name": "Racing Turbo Car",
@@ -61,8 +57,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T20:51:37.484Z",
-    "inStock": true,
-    "_id": "QeTcb"
+    "inStock": true
   },
   {
     "name": "Princess Doll",
@@ -74,8 +69,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T20:30:25.976Z",
-    "inStock": true,
-    "_id": "vtq43"
+    "inStock": true
   },
   {
     "name": "Space Helmet",
@@ -87,8 +81,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T20:30:12.645Z",
-    "inStock": true,
-    "_id": "3Yd6F"
+    "inStock": true
   },
   {
     "name": "Unicorn",
@@ -100,8 +93,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T20:29:20.764Z",
-    "inStock": true,
-    "_id": "hPgZF"
+    "inStock": true
   },
   {
     "name": "Teddy Bear",
@@ -113,8 +105,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T20:29:17.491Z",
-    "inStock": true,
-    "_id": "o6kqx"
+    "inStock": true
   },
   {
     "name": "nono",
@@ -126,8 +117,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-26T14:41:04.090Z",
-    "inStock": true,
-    "_id": "Q5wnm"
+    "inStock": true
   },
   {
     "name": "VR",
@@ -139,8 +129,7 @@
       "Puzzle"
     ],
     "inStock": true,
-    "createdAt": "2023-12-26T13:59:37.864Z",
-    "_id": "4pJnX"
+    "createdAt": "2023-12-26T13:59:37.864Z"
   },
   {
     "name": "Headset",
@@ -152,8 +141,7 @@
       "Puzzle"
     ],
     "inStock": true,
-    "createdAt": "2023-12-26T13:57:18.448Z",
-    "_id": "UgzmW"
+    "createdAt": "2023-12-26T13:57:18.448Z"
   },
   [
     {
@@ -166,11 +154,9 @@
         "Puzzle"
       ],
       "inStock": true,
-      "createdAt": "2023-09-21T11:11:22.122Z",
-      "_id": "RfsGY"
+      "createdAt": "2023-09-21T11:11:22.122Z"
     },
     {
-      "_id": "118073",
       "name": "monopol",
       "price": 106,
       "photo": "🚀",

@@ -1,89 +1,88 @@
 
-import fs from 'fs'
-import { utilService } from './util.service.js'
+// import fs from 'fs'
+// import { utilService } from './util.service.js'
 
-export const toyService = {
-    query,
-    getById,
-    remove,
-    save
-}
+// export const toyService = {
+//     query,
+//     getById,
+//     remove,
+//     save
+// }
 
-const toys = utilService.readJsonFile('data/toy.json')
+// const toys = utilService.readJsonFile('data/toy.json')
 
-function query(filterBy, sort) {
-    console.log('filterBy', filterBy)
-    console.log('sort', sort)
-    if (!filterBy) return Promise.resolve(toys)
+// function query(filterBy, sort) {
+//     console.log('filterBy', filterBy)
+//     console.log('sort', sort)
+//     if (!filterBy) return Promise.resolve(toys)
 
-    let filteredToys = toys
-    if (filterBy.txt) {
-        const regExp = new RegExp(filterBy.txt, 'i')
-        filteredToys = filteredToys.filter(toy => regExp.test(toy.name))
-    }
-    // if (filterBy.labels && filterBy.labels[0]) {
-    //     filteredToys = filteredToys.filter(toy => toy.labels.some(label => filterBy.labels.includes(label)))
-    // }
-
+//     let filteredToys = toys
+//     if (filterBy.txt) {
+//         const regExp = new RegExp(filterBy.txt, 'i')
+//         filteredToys = filteredToys.filter(toy => regExp.test(toy.name))
+//     }
+//     // if (filterBy.labels && filterBy.labels[0]) {
+//     //     filteredToys = filteredToys.filter(toy => toy.labels.some(label => filterBy.labels.includes(label)))
+//     // }
     
-    // filteredToys = filteredToys.filter(toy => toy.labels?.some(label => filterBy.labels.includes(label)) ?? true);
+//     // filteredToys = filteredToys.filter(toy => toy.labels?.some(label => filterBy.labels.includes(label)) ?? true);
 
 
-    if (filterBy.inStock) {
-        filteredToys = filteredToys.filter(toy => toy.inStock === JSON.parse(filterBy.inStock))
-    }
+//     if (filterBy.inStock) {
+//         filteredToys = filteredToys.filter(toy => toy.inStock === JSON.parse(filterBy.inStock))
+//     }
 
-    filterBy.maxPrice = (+filterBy.maxPrice) ? +filterBy.maxPrice : Infinity
-    filterBy.minPrice = (+filterBy.minPrice) ? +filterBy.minPrice : -Infinity
+//     filterBy.maxPrice = (+filterBy.maxPrice) ? +filterBy.maxPrice : Infinity
+//     filterBy.minPrice = (+filterBy.minPrice) ? +filterBy.minPrice : -Infinity
 
-    filteredToys = filteredToys.filter(toy => (toy.price <= filterBy.maxPrice) && (toy.price >= filterBy.minPrice))
+//     filteredToys = filteredToys.filter(toy => (toy.price <= filterBy.maxPrice) && (toy.price >= filterBy.minPrice))
 
-    filteredToys.sort((toy1, toy2) => {
-        const dir = JSON.parse(sort.asc) ? 1 : -1
-        if (sort.by === 'price') return (toy1.price - toy2.price) * dir
-        if (sort.by === 'name') return toy1.name.localeCompare(toy2.name) * dir
-    })
+//     filteredToys.sort((toy1, toy2) => {
+//         const dir = JSON.parse(sort.asc) ? 1 : -1
+//         if (sort.by === 'price') return (toy1.price - toy2.price) * dir
+//         if (sort.by === 'name') return toy1.name.localeCompare(toy2.name) * dir
+//     })
 
-    return Promise.resolve(filteredToys);
-}
-
-
-function getById(_id) {
-    const toy = toys.find(toy => toy._id === _id)
-    return Promise.resolve(toy);
-}
+//     return Promise.resolve(filteredToys);
+// }
 
 
-function remove(_id) {
-    const idx = toys.findIndex(toy => toy._id === _id)
-    toys.splice(idx, 1);
-    _saveToysToFile()
-    return Promise.resolve();
-}
-
-function save(toy) {
-    if (toy._id) {
-        const idx = toys.findIndex(currToy => currToy._id === toy._id)
-        toys[idx] = { ...toys[idx], ...toy }
-    } else {
-        toy.createdAt = new Date(Date.now());
-        toy._id = _makeId();
-        toys.unshift(toy);
-    }
-    _saveToysToFile();
-    return Promise.resolve(toy);
-}
+// function getById(_id) {
+//     const toy = toys.find(toy => toy._id === _id)
+//     return Promise.resolve(toy);
+// }
 
 
-function _saveToysToFile() {
-    fs.writeFileSync('data/toy.json', JSON.stringify(toys, null, 2));
-}
+// function remove(_id) {
+//     const idx = toys.findIndex(toy => toy._id === _id)
+//     toys.splice(idx, 1);
+//     _saveToysToFile()
+//     return Promise.resolve();
+// }
 
-function _makeId(length = 5) {
-    var txt = '';
-    var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    for (var i = 0; i < length; i++) {
-        txt += possible.charAt(Math.floor(Math.random() * possible.length));
-    }
-    return txt;
-}
+// function save(toy) {
+//     if (toy._id) {
+//         const idx = toys.findIndex(currToy => currToy._id === toy._id)
+//         toys[idx] = { ...toys[idx], ...toy }
+//     } else {
+//         toy.createdAt = new Date(Date.now());
+//         toy._id = _makeId();
+//         toys.unshift(toy);
+//     }
+//     _saveToysToFile();
+//     return Promise.resolve(toy);
+// }
+
+
+// function _saveToysToFile() {
+//     fs.writeFileSync('data/toy.json', JSON.stringify(toys, null, 2));
+// }
+
+// function _makeId(length = 5) {
+//     var txt = '';
+//     var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+//     for (var i = 0; i < length; i++) {
+//         txt += possible.charAt(Math.floor(Math.random() * possible.length));
+//     }
+//     return txt;
+// }
