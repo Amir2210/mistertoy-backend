@@ -2,10 +2,16 @@ import { logger } from '../../services/logger.service.js'
 import { toyService } from './toy.service.js'
 
 export async function getToys(req, res) {
+    const nameInputValue = req.query.params.filterBy.txt
+    const priceInputValue = req.query.params.filterBy.maxPrice
+    const inStockInputValue = req.query.params.filterBy.inStock
+    console.log(inStockInputValue);
+    console.log(req.query.params.filterBy);
     try {
         const filterBy = {
-            txt: req.query.txt || '',
-            inStock: req.query.inStock || ''
+            txt: nameInputValue || '',
+            maxPrice:priceInputValue  > 0 ? priceInputValue : Infinity,
+            inStock : inStockInputValue || ''
         }
 
         logger.debug('Getting toys', filterBy)
@@ -21,6 +27,7 @@ export async function getToyById(req, res) {
     try {
         const toyId = req.params.id
         const toy = await toyService.getById(toyId)
+        console.log(toy);
         res.json(toy)
     } catch (err) {
         logger.error('Failed to get toy', err)

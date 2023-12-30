@@ -14,28 +14,33 @@ export const toyService = {
     removeToyMsg
 }
 
-async function query(filterBy={txt:'', inStock:''}) {
+async function query(filterBy={txt:'',maxPrice: '', inStock: '' }) {
+ 
     try {
         const criteria = {
-            name: { $regex: filterBy.txt, $options: 'i' },  
+            name: { $regex: filterBy.txt, $options: 'i' },
         }
-        if (filterBy.inStock !== '') {
+        if (filterBy.maxPrice) {
+            criteria.price = { $lte: parseFloat(filterBy.maxPrice) };
+        }
+        if(filterBy.inStock !== ''){
             criteria.inStock = filterBy.inStock === 'true';
         }
-
         const collection = await dbService.getCollection('toys')
         var toys = await collection.find(criteria).toArray()
         return toys
     } catch (err) {
         logger.error('cannot find toys', err)
+        console.error(err)
         throw err
     }
 }
 
 async function getById(toyId) {
     try {
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         const toy = await collection.findOne({ _id: new ObjectId(toyId) })
+        console.log(toy);
         return toy
     } catch (err) {
         logger.error(`while finding toy ${toyId}`, err)
@@ -70,7 +75,7 @@ async function update(toy) {
             name: toy.name,
             price: toy.price
         }
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         await collection.updateOne({ _id: new ObjectId(toy._id) }, { $set: toyToSave })
         return toy
     } catch (err) {
