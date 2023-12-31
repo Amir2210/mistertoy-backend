@@ -5,8 +5,7 @@ export async function getToys(req, res) {
     const nameInputValue = req.query.params.filterBy.txt
     const priceInputValue = req.query.params.filterBy.maxPrice
     const inStockInputValue = req.query.params.filterBy.inStock
-    console.log(inStockInputValue);
-    console.log(req.query.params.filterBy);
+
     try {
         const filterBy = {
             txt: nameInputValue || '',
@@ -61,6 +60,7 @@ export async function updateToy(req, res) {
 }
 
 export async function removeToy(req, res) {
+    console.log('req',req.params.id);
     try {
         const toyId = req.params.id
         await toyService.remove(toyId)

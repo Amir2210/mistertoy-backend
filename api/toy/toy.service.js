@@ -49,8 +49,9 @@ async function getById(toyId) {
 }
 
 async function remove(toyId) {
+    console.log(toyId);
     try {
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         await collection.deleteOne({ _id: new ObjectId(toyId) })
     } catch (err) {
         logger.error(`cannot remove toy ${toyId}`, err)
@@ -60,7 +61,7 @@ async function remove(toyId) {
 
 async function add(toy) {
     try {
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         await collection.insertOne(toy)
         return toy
     } catch (err) {
@@ -87,7 +88,7 @@ async function update(toy) {
 async function addToyMsg(toyId, msg) {
     try {
         msg.id = utilService.makeId()
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         await collection.updateOne({ _id: new ObjectId(toyId) }, { $push: { msgs: msg } })
         return msg
     } catch (err) {
@@ -98,7 +99,7 @@ async function addToyMsg(toyId, msg) {
 
 async function removeToyMsg(toyId, msgId) {
     try {
-        const collection = await dbService.getCollection('toy')
+        const collection = await dbService.getCollection('toys')
         await collection.updateOne({ _id: new ObjectId(toyId) }, { $pull: { msgs: {id: msgId} } })
         return msgId
     } catch (err) {
