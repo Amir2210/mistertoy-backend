@@ -2258,3 +2258,13 @@
 2.1.2024, 17:29:41 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
 2.1.2024, 17:35:09 - INFO - server.js loaded... 
 2.1.2024, 17:35:09 - INFO - Server is running on port: 3030 
+2.1.2024, 17:41:48 - INFO - Req was made | / 
+2.1.2024, 17:41:48 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:46:55 - INFO - server.js loaded... 
+2.1.2024, 17:46:55 - INFO - Server is running on port: 3030 
+2.1.2024, 17:47:46 - INFO - Req was made | / 
+2.1.2024, 17:47:46 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:52:45 - INFO - Req was made | / 
+2.1.2024, 17:52:45 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:53:15 - INFO - server.js loaded... 
+2.1.2024, 17:53:15 - INFO - Server is running on port: 3030 
