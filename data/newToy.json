@@ -142,8 +142,7 @@
     ],
     "inStock": true,
     "createdAt": "2023-12-26T13:57:18.448Z"
-  },
-  [
+  },  
     {
       "name": "doll",
       "price": 43,
@@ -168,5 +167,4 @@
       "createdAt": "1990-07-28T23:36:15.927Z",
       "inStock": false
     }
-  ]
 ]

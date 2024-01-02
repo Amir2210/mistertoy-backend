@@ -9,7 +9,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-28T16:19:55.268Z",
-    "inStock": true,
+    "inStock": false,
     "_id": "xQ4gj"
   },
   {
@@ -22,7 +22,7 @@
       "Baby"
     ],
     "createdAt": "2023-12-27T18:22:02.700Z",
-    "inStock": true,
+    "inStock": false,
     "_id": "DZCLV"
   },
   {

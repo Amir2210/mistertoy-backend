@@ -1578,3 +1578,683 @@
 31.12.2023, 16:57:57 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
 31.12.2023, 16:58:09 - INFO - server.js loaded... 
 31.12.2023, 16:58:09 - INFO - Server is running on port: 3030 
+31.12.2023, 16:59:12 - INFO - server.js loaded... 
+31.12.2023, 16:59:12 - INFO - Server is running on port: 3030 
+31.12.2023, 16:59:21 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 16:59:21 - INFO - Req was made | / 
+31.12.2023, 16:59:23 - INFO - Req was made | / 
+31.12.2023, 16:59:23 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 16:59:27 - DEBUG - auth.service - login with username: muki 
+31.12.2023, 16:59:27 - INFO - User login:  | {"_id":"65917dcc0dabd8d3c362a3e7","username":"muki","fullname":"fgd","score":0,"isAdmin":false} 
+31.12.2023, 16:59:35 - DEBUG - auth.service - login with username: amir 
+31.12.2023, 16:59:35 - INFO - User login:  | {"_id":"65917bef0dabd8d3c362a3e6","username":"amir","fullname":"amir yanko","score":0,"isAdmin":true} 
+31.12.2023, 16:59:37 - INFO - Req was made | / 
+31.12.2023, 16:59:37 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 16:59:46 - INFO - Req was made | / 
+31.12.2023, 16:59:46 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 17:02:16 - INFO - Req was made | / 
+31.12.2023, 17:02:16 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 17:02:22 - INFO - Req was made | / 
+31.12.2023, 17:02:22 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+31.12.2023, 18:03:44 - INFO - Req was made | / 
+31.12.2023, 18:03:44 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 9:34:18 - INFO - server.js loaded... 
+1.1.2024, 9:34:18 - INFO - Server is running on port: 3030 
+1.1.2024, 9:34:37 - INFO - server.js loaded... 
+1.1.2024, 9:34:37 - INFO - Server is running on port: 3030 
+1.1.2024, 15:43:08 - INFO - server.js loaded... 
+1.1.2024, 15:43:08 - INFO - Server is running on port: 3030 
+1.1.2024, 15:48:29 - INFO - Req was made | / 
+1.1.2024, 15:48:29 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:48:30 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:30 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:30 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:30 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:30 - INFO - Req was made | / 
+1.1.2024, 15:48:30 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:48:31 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:31 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:31 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:31 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:38 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:38 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:38 - ERROR - while finding toy 658eceb2cb5ca1cd951900d0 | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:38 - ERROR - Failed to get toy | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:39 - INFO - Req was made | / 
+1.1.2024, 15:48:39 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:48:40 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:40 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:40 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:40 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:48:57 - INFO - server.js loaded... 
+1.1.2024, 15:48:57 - INFO - Server is running on port: 3030 
+1.1.2024, 15:49:19 - INFO - Req was made | / 
+1.1.2024, 15:49:19 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:49:20 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:49:20 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:49:20 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:49:20 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:50:19 - INFO - server.js loaded... 
+1.1.2024, 15:50:19 - INFO - Server is running on port: 3030 
+1.1.2024, 15:50:48 - INFO - Req was made | / 
+1.1.2024, 15:50:48 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:53:50 - INFO - server.js loaded... 
+1.1.2024, 15:53:50 - INFO - Server is running on port: 3030 
+1.1.2024, 15:54:07 - INFO - server.js loaded... 
+1.1.2024, 15:54:07 - INFO - Server is running on port: 3030 
+1.1.2024, 15:54:21 - INFO - Req was made | / 
+1.1.2024, 15:54:21 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:54:22 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:22 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:22 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:22 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:32 - INFO - server.js loaded... 
+1.1.2024, 15:54:32 - INFO - Server is running on port: 3030 
+1.1.2024, 15:54:38 - INFO - server.js loaded... 
+1.1.2024, 15:54:38 - INFO - Server is running on port: 3030 
+1.1.2024, 15:54:38 - INFO - Req was made | / 
+1.1.2024, 15:54:38 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:54:39 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:39 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:39 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:54:39 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:55:23 - INFO - Req was made | / 
+1.1.2024, 15:55:23 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:55:24 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:55:24 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:55:24 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:55:24 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:57:26 - INFO - Req was made | / 
+1.1.2024, 15:57:26 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:57:28 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:57:28 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:57:28 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:57:28 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:57:37 - INFO - server.js loaded... 
+1.1.2024, 15:57:37 - INFO - Server is running on port: 3030 
+1.1.2024, 15:57:51 - INFO - server.js loaded... 
+1.1.2024, 15:57:51 - INFO - Server is running on port: 3030 
+1.1.2024, 15:58:05 - INFO - Req was made | / 
+1.1.2024, 15:58:05 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:58:07 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:58:07 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:58:07 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:58:07 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 15:58:20 - INFO - server.js loaded... 
+1.1.2024, 15:58:20 - INFO - Server is running on port: 3030 
+1.1.2024, 15:58:21 - INFO - Req was made | / 
+1.1.2024, 15:58:21 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 15:58:42 - INFO - server.js loaded... 
+1.1.2024, 15:58:42 - INFO - Server is running on port: 3030 
+1.1.2024, 15:58:44 - INFO - Req was made | / 
+1.1.2024, 15:58:44 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:00:10 - INFO - server.js loaded... 
+1.1.2024, 16:00:10 - INFO - Server is running on port: 3030 
+1.1.2024, 16:00:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:00:15 - INFO - Req was made | / 
+1.1.2024, 16:00:17 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:00:17 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:00:17 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:00:17 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:01:37 - INFO - server.js loaded... 
+1.1.2024, 16:01:37 - INFO - Server is running on port: 3030 
+1.1.2024, 16:01:38 - INFO - Req was made | / 
+1.1.2024, 16:01:38 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:01:39 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:01:39 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:01:39 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:01:40 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:02:15 - INFO - server.js loaded... 
+1.1.2024, 16:02:15 - INFO - Server is running on port: 3030 
+1.1.2024, 16:02:17 - INFO - server.js loaded... 
+1.1.2024, 16:02:17 - INFO - Server is running on port: 3030 
+1.1.2024, 16:03:00 - INFO - server.js loaded... 
+1.1.2024, 16:03:00 - INFO - Server is running on port: 3030 
+1.1.2024, 16:03:06 - INFO - Req was made | / 
+1.1.2024, 16:03:06 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:03:07 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:03:07 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:03:07 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:03:07 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:03:15 - INFO - server.js loaded... 
+1.1.2024, 16:03:15 - INFO - Server is running on port: 3030 
+1.1.2024, 16:03:18 - INFO - server.js loaded... 
+1.1.2024, 16:03:18 - INFO - Server is running on port: 3030 
+1.1.2024, 16:03:19 - INFO - server.js loaded... 
+1.1.2024, 16:03:19 - INFO - Server is running on port: 3030 
+1.1.2024, 16:05:11 - INFO - server.js loaded... 
+1.1.2024, 16:05:11 - INFO - Server is running on port: 3030 
+1.1.2024, 16:05:14 - INFO - Req was made | / 
+1.1.2024, 16:05:14 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:05:15 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:15 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:15 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:15 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:35 - INFO - Req was made | / 
+1.1.2024, 16:05:35 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:05:36 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:36 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:36 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:36 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:43 - INFO - Req was made | / 
+1.1.2024, 16:05:43 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:05:44 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:44 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:44 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:05:44 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:02 - INFO - server.js loaded... 
+1.1.2024, 16:06:02 - INFO - Server is running on port: 3030 
+1.1.2024, 16:06:04 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:06:04 - INFO - Req was made | / 
+1.1.2024, 16:06:05 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:05 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:05 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:05 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:11 - INFO - Req was made | / 
+1.1.2024, 16:06:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:06:12 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:12 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:12 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:12 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:43 - INFO - Req was made | / 
+1.1.2024, 16:06:43 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:06:44 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:44 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:44 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:06:44 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:08:59 - INFO - server.js loaded... 
+1.1.2024, 16:08:59 - INFO - Server is running on port: 3030 
+1.1.2024, 16:09:03 - INFO - server.js loaded... 
+1.1.2024, 16:09:03 - INFO - Server is running on port: 3030 
+1.1.2024, 16:09:05 - INFO - Req was made | / 
+1.1.2024, 16:09:05 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:09:06 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:06 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:06 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:06 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:12 - INFO - server.js loaded... 
+1.1.2024, 16:09:12 - INFO - Server is running on port: 3030 
+1.1.2024, 16:09:14 - INFO - server.js loaded... 
+1.1.2024, 16:09:14 - INFO - Server is running on port: 3030 
+1.1.2024, 16:09:18 - INFO - Req was made | / 
+1.1.2024, 16:09:18 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:09:19 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:19 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:19 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:09:19 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:16:55 - INFO - Req was made | / 
+1.1.2024, 16:16:55 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:16:56 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:16:56 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:16:56 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:16:56 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:36 - INFO - Server is running on port: 3030 
+1.1.2024, 16:17:36 - INFO - server.js loaded... 
+1.1.2024, 16:17:40 - INFO - Req was made | / 
+1.1.2024, 16:17:40 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:17:42 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:42 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:42 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:42 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:51 - INFO - Req was made | / 
+1.1.2024, 16:17:51 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:17:52 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:52 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:52 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:17:52 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:18:10 - INFO - server.js loaded... 
+1.1.2024, 16:18:10 - INFO - Server is running on port: 3030 
+1.1.2024, 16:18:11 - INFO - Req was made | / 
+1.1.2024, 16:18:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:19:09 - INFO - Req was made | / 
+1.1.2024, 16:19:09 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:19:14 - INFO - server.js loaded... 
+1.1.2024, 16:19:14 - INFO - Server is running on port: 3030 
+1.1.2024, 16:19:15 - INFO - Req was made | / 
+1.1.2024, 16:19:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:19:16 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:16 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:16 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:16 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:34 - INFO - server.js loaded... 
+1.1.2024, 16:19:34 - INFO - Server is running on port: 3030 
+1.1.2024, 16:19:35 - INFO - Req was made | / 
+1.1.2024, 16:19:35 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:19:36 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:36 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:36 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:36 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:46 - INFO - server.js loaded... 
+1.1.2024, 16:19:46 - INFO - Server is running on port: 3030 
+1.1.2024, 16:19:47 - INFO - Req was made | / 
+1.1.2024, 16:19:47 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:19:48 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:48 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:48 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:19:48 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:23:23 - INFO - server.js loaded... 
+1.1.2024, 16:23:23 - INFO - Server is running on port: 3030 
+1.1.2024, 16:23:27 - INFO - Req was made | / 
+1.1.2024, 16:23:27 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:23:29 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:23:29 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:23:29 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:23:29 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:27:10 - INFO - server.js loaded... 
+1.1.2024, 16:27:10 - INFO - Server is running on port: 3030 
+1.1.2024, 16:27:12 - INFO - Req was made | / 
+1.1.2024, 16:27:12 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:27:14 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:27:14 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:27:14 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:27:14 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:29:55 - INFO - server.js loaded... 
+1.1.2024, 16:29:55 - INFO - Server is running on port: 3030 
+1.1.2024, 16:29:57 - INFO - Req was made | / 
+1.1.2024, 16:29:57 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:29:58 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:29:58 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:29:58 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:29:58 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:30:02 - INFO - server.js loaded... 
+1.1.2024, 16:30:02 - INFO - Server is running on port: 3030 
+1.1.2024, 16:30:02 - INFO - Req was made | / 
+1.1.2024, 16:30:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:30:04 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:30:04 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:30:04 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:30:04 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:31:22 - INFO - server.js loaded... 
+1.1.2024, 16:31:22 - INFO - Server is running on port: 3030 
+1.1.2024, 16:31:57 - INFO - Req was made | / 
+1.1.2024, 16:31:57 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:31:58 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:31:58 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:31:58 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:31:58 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:32:57 - INFO - server.js loaded... 
+1.1.2024, 16:32:57 - INFO - Server is running on port: 3030 
+1.1.2024, 16:33:03 - INFO - Req was made | / 
+1.1.2024, 16:33:03 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:33:04 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:33:04 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:33:04 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:33:04 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:35:16 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:35:16 - INFO - Req was made | / 
+1.1.2024, 16:35:17 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:35:17 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:35:17 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:35:17 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed 
+1.1.2024, 16:35:30 - INFO - server.js loaded... 
+1.1.2024, 16:35:30 - INFO - Server is running on port: 3030 
+1.1.2024, 16:35:33 - INFO - Req was made | / 
+1.1.2024, 16:35:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:39:19 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:39:19 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 16:39:57 - INFO - Req was made | / 
+1.1.2024, 16:39:57 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:39:59 - INFO - Req was made | / 
+1.1.2024, 16:39:59 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:01 - INFO - Req was made | / 
+1.1.2024, 16:40:01 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:02 - INFO - Req was made | / 
+1.1.2024, 16:40:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:03 - INFO - Req was made | / 
+1.1.2024, 16:40:03 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:03 - INFO - Req was made | / 
+1.1.2024, 16:40:03 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:10 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:10 - INFO - Req was made | / 
+1.1.2024, 16:40:27 - INFO - server.js loaded... 
+1.1.2024, 16:40:27 - INFO - Server is running on port: 3030 
+1.1.2024, 16:40:27 - INFO - Req was made | / 
+1.1.2024, 16:40:27 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:40:28 - ERROR - Failed to get Mongo collection | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" 
+1.1.2024, 16:40:28 - ERROR - Cannot Connect to DB | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" 
+1.1.2024, 16:40:28 - ERROR - Failed to get toys | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" 
+1.1.2024, 16:40:28 - ERROR - cannot find toys | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" 
+1.1.2024, 16:40:31 - INFO - server.js loaded... 
+1.1.2024, 16:40:31 - INFO - Server is running on port: 3030 
+1.1.2024, 16:40:32 - INFO - Req was made | / 
+1.1.2024, 16:40:32 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:42:54 - DEBUG - auth.service - signup with username: amir, fullname: amir yankolovich 
+1.1.2024, 16:42:55 - DEBUG - auth.route - new account created: {"username":"amir","password":"$2b$10$2t/LAvqV2Cl2CiRquuXHmujA7.UygrUgIahUgNYI.HNraqzIvig4q","fullname":"amir yankolovich","score":0,"isAdmin":false,"_id":"6592cf6f6e74354442003486"} 
+1.1.2024, 16:42:55 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:43:10 - INFO - Req was made | / 
+1.1.2024, 16:43:10 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:43:15 - DEBUG - auth.service - login with username: muki 
+1.1.2024, 16:43:15 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 16:43:23 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:43:23 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":false} 
+1.1.2024, 16:43:24 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:43:24 - INFO - Req was made | / 
+1.1.2024, 16:44:17 - INFO - Req was made | / 
+1.1.2024, 16:44:17 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:44:28 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:44:29 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":true} 
+1.1.2024, 16:44:30 - INFO - Req was made | / 
+1.1.2024, 16:44:30 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:44:39 - INFO - Req was made | / 
+1.1.2024, 16:44:39 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:45:05 - DEBUG - auth.service - signup with username: panda, fullname: panda motek 
+1.1.2024, 16:45:08 - DEBUG - auth.route - new account created: {"username":"panda","password":"$2b$10$wVcNAbEbfHrOKx1idKCAtuQqlB5TsdqmSs1N4uvk4kFkhczFlgIx6","fullname":"panda motek","score":0,"isAdmin":false,"_id":"6592cff26e74354442003487"} 
+1.1.2024, 16:45:08 - DEBUG - auth.service - login with username: panda 
+1.1.2024, 16:45:11 - INFO - Req was made | / 
+1.1.2024, 16:45:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:45:16 - INFO - Req was made | / 
+1.1.2024, 16:45:16 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:45:33 - INFO - Req was made | / 
+1.1.2024, 16:45:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:45:38 - INFO - Req was made | / 
+1.1.2024, 16:45:38 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:45:52 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:45:52 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 16:45:53 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:45:54 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 16:45:57 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 16:45:57 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":true} 
+1.1.2024, 16:45:58 - INFO - Req was made | / 
+1.1.2024, 16:45:58 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:48:27 - INFO - Req was made | / 
+1.1.2024, 16:48:27 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 16:54:36 - INFO - Req was made | / 
+1.1.2024, 16:54:36 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 16:54:37 - INFO - Req was made | / 
+1.1.2024, 16:54:37 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:55:19 - INFO - Req was made | / 
+1.1.2024, 16:55:19 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:55:38 - INFO - Req was made | / 
+1.1.2024, 16:55:38 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:55:39 - INFO - Req was made | / 
+1.1.2024, 16:55:39 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:55:43 - INFO - Req was made | / 
+1.1.2024, 16:55:43 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:55:47 - INFO - Req was made | / 
+1.1.2024, 16:55:47 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:56:00 - INFO - Req was made | / 
+1.1.2024, 16:56:00 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:56:02 - INFO - Req was made | / 
+1.1.2024, 16:56:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:56:32 - INFO - Req was made | / 
+1.1.2024, 16:56:32 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 16:56:33 - INFO - Req was made | / 
+1.1.2024, 16:56:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 16:56:35 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 16:56:35 - INFO - Req was made | / 
+1.1.2024, 17:00:08 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:00:08 - INFO - Req was made | / 
+1.1.2024, 17:00:39 - INFO - Req was made | / 
+1.1.2024, 17:00:39 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:01:23 - INFO - Req was made | / 
+1.1.2024, 17:01:23 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:01:25 - INFO - Req was made | / 
+1.1.2024, 17:01:25 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 17:01:26 - INFO - Req was made | / 
+1.1.2024, 17:01:26 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 17:01:27 - INFO - Req was made | / 
+1.1.2024, 17:01:27 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:46:29 - INFO - Req was made | / 
+1.1.2024, 17:46:29 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:46:34 - INFO - Req was made | / 
+1.1.2024, 17:46:34 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:46:53 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 17:46:53 - INFO - Req was made | / 
+1.1.2024, 18:39:32 - INFO - Req was made | / 
+1.1.2024, 18:39:32 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:40:15 - INFO - Req was made | / 
+1.1.2024, 18:40:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:40:18 - INFO - Req was made | / 
+1.1.2024, 18:40:18 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 18:40:20 - INFO - Req was made | / 
+1.1.2024, 18:40:20 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 18:40:22 - INFO - Req was made | / 
+1.1.2024, 18:40:22 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:40:49 - INFO - Req was made | / 
+1.1.2024, 18:40:49 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:46:49 - INFO - server.js loaded... 
+1.1.2024, 18:46:49 - INFO - Server is running on port: 3030 
+1.1.2024, 18:47:07 - INFO - server.js loaded... 
+1.1.2024, 18:47:08 - INFO - Server is running on port: 3030 
+1.1.2024, 18:48:01 - INFO - server.js loaded... 
+1.1.2024, 18:48:01 - INFO - Server is running on port: 3030 
+1.1.2024, 18:48:08 - INFO - server.js loaded... 
+1.1.2024, 18:48:08 - INFO - Server is running on port: 3030 
+1.1.2024, 18:49:20 - INFO - server.js loaded... 
+1.1.2024, 18:49:20 - INFO - Server is running on port: 3030 
+1.1.2024, 18:49:40 - INFO - Req was made | / 
+1.1.2024, 18:49:40 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:49:42 - INFO - Req was made | / 
+1.1.2024, 18:49:42 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 18:50:29 - INFO - server.js loaded... 
+1.1.2024, 18:50:29 - INFO - Server is running on port: 3030 
+1.1.2024, 18:50:55 - INFO - server.js loaded... 
+1.1.2024, 18:50:55 - INFO - Server is running on port: 3030 
+1.1.2024, 18:51:02 - INFO - Req was made | / 
+1.1.2024, 18:51:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 18:51:08 - INFO - Req was made | / 
+1.1.2024, 18:51:08 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 18:53:19 - INFO - Req was made | / 
+1.1.2024, 18:53:19 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 19:26:07 - INFO - Req was made | / 
+1.1.2024, 19:26:07 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 19:48:52 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 19:48:52 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":true} 
+1.1.2024, 19:49:33 - INFO - Req was made | / 
+1.1.2024, 19:49:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:19:13 - INFO - Req was made | / 
+1.1.2024, 20:19:13 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:19:51 - INFO - Req was made | / 
+1.1.2024, 20:19:51 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:26:07 - INFO - Req was made | / 
+1.1.2024, 20:26:07 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:26:25 - INFO - Req was made | / 
+1.1.2024, 20:26:25 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:26:37 - INFO - Req was made | / 
+1.1.2024, 20:26:37 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:28:47 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:28:47 - INFO - Req was made | / 
+1.1.2024, 20:32:34 - INFO - Req was made | / 
+1.1.2024, 20:32:34 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:33:53 - INFO - Req was made | / 
+1.1.2024, 20:33:53 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:41:17 - INFO - Req was made | / 
+1.1.2024, 20:41:17 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:41:55 - INFO - Req was made | / 
+1.1.2024, 20:41:55 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:42:21 - INFO - Req was made | / 
+1.1.2024, 20:42:21 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:42:34 - INFO - Req was made | / 
+1.1.2024, 20:42:34 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:43:02 - INFO - Req was made | / 
+1.1.2024, 20:43:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:45:07 - INFO - Req was made | / 
+1.1.2024, 20:45:07 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 20:45:11 - INFO - Req was made | / 
+1.1.2024, 20:45:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 20:45:17 - INFO - Req was made | / 
+1.1.2024, 20:45:17 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:57:03 - INFO - Req was made | / 
+1.1.2024, 20:57:03 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:57:17 - INFO - Req was made | / 
+1.1.2024, 20:57:17 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:57:19 - INFO - Req was made | / 
+1.1.2024, 20:57:19 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:58:11 - INFO - Req was made | / 
+1.1.2024, 20:58:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:58:14 - INFO - Req was made | / 
+1.1.2024, 20:58:14 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:59:30 - INFO - Req was made | / 
+1.1.2024, 20:59:30 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:59:33 - INFO - Req was made | / 
+1.1.2024, 20:59:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:59:43 - INFO - Req was made | / 
+1.1.2024, 20:59:43 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 20:59:45 - INFO - Req was made | / 
+1.1.2024, 20:59:45 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:00:49 - INFO - Req was made | / 
+1.1.2024, 21:00:49 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:00:58 - INFO - Req was made | / 
+1.1.2024, 21:00:58 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:01:10 - INFO - Req was made | / 
+1.1.2024, 21:01:10 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:02:46 - INFO - Req was made | / 
+1.1.2024, 21:02:46 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:02:49 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:02:49 - INFO - Req was made | / 
+1.1.2024, 21:05:58 - INFO - Req was made | / 
+1.1.2024, 21:05:58 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 21:06:45 - INFO - Req was made | / 
+1.1.2024, 21:06:45 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:12:54 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:12:54 - INFO - Req was made | / 
+1.1.2024, 22:16:11 - INFO - Req was made | / 
+1.1.2024, 22:16:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:16:14 - INFO - Req was made | / 
+1.1.2024, 22:16:14 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:16:24 - INFO - Req was made | / 
+1.1.2024, 22:16:24 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:16:27 - INFO - Req was made | / 
+1.1.2024, 22:16:27 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:28:02 - INFO - Req was made | / 
+1.1.2024, 22:28:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:28:29 - INFO - Req was made | / 
+1.1.2024, 22:28:29 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:28:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:28:33 - INFO - Req was made | / 
+1.1.2024, 22:29:57 - INFO - Req was made | / 
+1.1.2024, 22:29:57 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 22:30:00 - INFO - Req was made | / 
+1.1.2024, 22:30:00 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 22:30:02 - INFO - Req was made | / 
+1.1.2024, 22:30:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:33:24 - INFO - Req was made | / 
+1.1.2024, 22:33:24 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:36:32 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:36:32 - INFO - Req was made | / 
+1.1.2024, 22:36:49 - INFO - Req was made | / 
+1.1.2024, 22:36:49 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:37:05 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:37:05 - INFO - Req was made | / 
+1.1.2024, 22:37:37 - INFO - Req was made | / 
+1.1.2024, 22:37:37 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:39:12 - INFO - Req was made | / 
+1.1.2024, 22:39:12 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:39:23 - INFO - Req was made | / 
+1.1.2024, 22:39:23 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"true"} 
+1.1.2024, 22:39:26 - INFO - Req was made | / 
+1.1.2024, 22:39:26 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+1.1.2024, 22:39:29 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:39:29 - INFO - Req was made | / 
+1.1.2024, 22:40:11 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 22:40:11 - INFO - Req was made | / 
+1.1.2024, 23:10:15 - INFO - Req was made | / 
+1.1.2024, 23:10:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:11:40 - DEBUG - auth.service - login with username: muki 
+1.1.2024, 23:11:40 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 23:11:43 - DEBUG - auth.service - login with username: muki 
+1.1.2024, 23:11:43 - ERROR - Failed to Login Error: Invalid username or password 
+1.1.2024, 23:11:48 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 23:11:48 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":true} 
+1.1.2024, 23:11:51 - INFO - Req was made | / 
+1.1.2024, 23:11:51 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:11:59 - INFO - Req was made | / 
+1.1.2024, 23:11:59 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:12:02 - INFO - Req was made | / 
+1.1.2024, 23:12:02 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:12:42 - INFO - Req was made | / 
+1.1.2024, 23:12:42 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:15:15 - INFO - Req was made | / 
+1.1.2024, 23:15:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:15:32 - DEBUG - auth.service - login with username: amir 
+1.1.2024, 23:15:33 - INFO - User login:  | {"_id":"6592cf6f6e74354442003486","username":"amir","fullname":"amir yankolovich","score":0,"isAdmin":true} 
+1.1.2024, 23:18:33 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:18:33 - INFO - Req was made | / 
+1.1.2024, 23:18:48 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:18:48 - INFO - Req was made | / 
+1.1.2024, 23:19:15 - INFO - Req was made | / 
+1.1.2024, 23:19:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:20:26 - INFO - Req was made | / 
+1.1.2024, 23:20:26 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:21:15 - INFO - Req was made | / 
+1.1.2024, 23:21:15 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:27:20 - INFO - server.js loaded... 
+1.1.2024, 23:27:20 - INFO - Server is running on port: 3030 
+1.1.2024, 23:27:28 - INFO - Req was made | / 
+1.1.2024, 23:27:28 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:28:06 - INFO - Req was made | / 
+1.1.2024, 23:28:06 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+1.1.2024, 23:31:43 - INFO - server.js loaded... 
+1.1.2024, 23:31:43 - INFO - Server is running on port: 3030 
+1.1.2024, 23:33:29 - INFO - server.js loaded... 
+1.1.2024, 23:33:29 - INFO - Server is running on port: 3030 
+1.1.2024, 23:33:59 - INFO - server.js loaded... 
+1.1.2024, 23:33:59 - INFO - Server is running on port: 3030 
+1.1.2024, 23:36:06 - INFO - server.js loaded... 
+1.1.2024, 23:36:06 - INFO - Server is running on port: 3030 
+1.1.2024, 23:37:23 - INFO - Req was made | / 
+1.1.2024, 23:37:23 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 8:40:32 - INFO - server.js loaded... 
+2.1.2024, 8:40:32 - INFO - Server is running on port: 3030 
+2.1.2024, 8:42:30 - INFO - server.js loaded... 
+2.1.2024, 8:42:30 - INFO - Server is running on port: 3030 
+2.1.2024, 9:01:25 - INFO - Req was made | / 
+2.1.2024, 9:01:25 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 9:08:34 - INFO - Req was made | / 
+2.1.2024, 9:08:34 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":"false"} 
+2.1.2024, 9:08:41 - INFO - Req was made | / 
+2.1.2024, 9:08:41 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 9:08:52 - INFO - Req was made | / 
+2.1.2024, 9:08:52 - DEBUG - Getting toys | {"txt":"","maxPrice":"4","inStock":""} 
+2.1.2024, 9:08:53 - INFO - Req was made | / 
+2.1.2024, 9:08:53 - DEBUG - Getting toys | {"txt":"","maxPrice":"400","inStock":""} 
+2.1.2024, 9:08:58 - INFO - Req was made | / 
+2.1.2024, 9:08:58 - DEBUG - Getting toys | {"txt":"","maxPrice":"4","inStock":""} 
+2.1.2024, 9:08:59 - INFO - Req was made | / 
+2.1.2024, 9:08:59 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:09 - DEBUG - Getting toys | {"txt":"ee","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:09 - INFO - Req was made | / 
+2.1.2024, 9:09:11 - INFO - Req was made | / 
+2.1.2024, 9:09:11 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:13 - INFO - Req was made | / 
+2.1.2024, 9:09:13 - DEBUG - Getting toys | {"txt":"pi","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:14 - INFO - Req was made | / 
+2.1.2024, 9:09:14 - DEBUG - Getting toys | {"txt":"pik","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:15 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:15 - INFO - Req was made | / 
+2.1.2024, 9:09:18 - INFO - Req was made | / 
+2.1.2024, 9:09:18 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:19 - INFO - Req was made | / 
+2.1.2024, 9:09:19 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:21 - INFO - Req was made | / 
+2.1.2024, 9:09:21 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:09:23 - INFO - Req was made | / 
+2.1.2024, 9:09:23 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:10 - INFO - Req was made | / 
+2.1.2024, 9:10:10 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:15 - INFO - Req was made | / 
+2.1.2024, 9:10:15 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:19 - INFO - Req was made | / 
+2.1.2024, 9:10:19 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:21 - INFO - Req was made | / 
+2.1.2024, 9:10:21 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:26 - INFO - Req was made | / 
+2.1.2024, 9:10:26 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 9:10:32 - INFO - Req was made | / 
+2.1.2024, 9:10:32 - DEBUG - Getting toys | {"txt":"","maxPrice":null,"inStock":""} 
+2.1.2024, 17:01:36 - INFO - Req was made | / 
+2.1.2024, 17:01:36 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:10:05 - INFO - Req was made | / 
+2.1.2024, 17:10:05 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:26:37 - ERROR - cannot find users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:26:37 - ERROR - Failed to get users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:26:37 - ERROR - cannot find users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:26:37 - ERROR - Failed to get users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:27:08 - ERROR - cannot find users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:27:08 - ERROR - Failed to get users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:27:08 - ERROR - cannot find users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:27:08 - ERROR - Failed to get users | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+2.1.2024, 17:29:41 - INFO - Req was made | / 
+2.1.2024, 17:29:41 - DEBUG - Getting toys | {"txt":"","maxPrice":"Infinity","inStock":""} 
+2.1.2024, 17:35:09 - INFO - server.js loaded... 
+2.1.2024, 17:35:09 - INFO - Server is running on port: 3030 

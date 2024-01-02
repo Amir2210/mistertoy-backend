@@ -192,7 +192,7 @@ import { logger } from './services/logger.service.js'
 logger.info('server.js loaded...')
 
 const app = express()
-
+// const server = http.createServer(app)
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
@@ -223,6 +223,11 @@ app.use('/api/user', userRoutes)
 import { toyRoutes } from './api/toy/toy.routes.js'
 app.use('/api/toy', toyRoutes)
 
+// import { reviewRoutes } from './api/review/review.routes.js'
+// app.use('/api/review', reviewRoutes)
+
+// import { setupSocketAPI } from './services/socket.service.js'
+// setupSocketAPI(server)
 // Make every unmatched server-side-route fall back to index.html
 // So when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue-router to take it from there
